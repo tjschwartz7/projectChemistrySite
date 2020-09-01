@@ -4,9 +4,7 @@ justify-content: center;
 }
 .flexbox-item{
   background-color: #A9A9A9;
-
   border:3px solid #333;
-
 }
 
 .flexbox-item-1{
@@ -22,6 +20,8 @@ justify-content: center;
   margin-top: 10px;
   min-height:100%;
   width:15%;
+  margin-left:10px;
+  margin-bottom:10px;
 }
 
 @media only screen and (max-width: 800px){
@@ -55,6 +55,9 @@ justify-content: center;
   flex-flow:wrap;
 }
 
+body{
+  margin:0;
+}
 img{
   width:100%;
   height:300px;
@@ -68,18 +71,30 @@ img{
   margin-top:10px;
   margin-left:25px;
   text-indent:25px;
+
 }
+
+.information-item-1 ol{
+  margin:20px;
+}
+
+
 
 
 
 .index-container p{
   font-size:17px;
   font-family:serif, sans-serif;
+
 }
 .information-item-1 img{
   width:150px;
   height:150px;
   float:left;
+  margin-right:20px;
+}
+.information-item-1 h2{
+  background-color: #8FBC8F;
 }
 .clear{
   clear:both
@@ -88,4 +103,57 @@ img{
 a{
   font-size:17px;
   font-family:serif, sans-serif;
+}
+
+.flash-cards{
+  display:flex;
+  justify-content: center;
+}
+
+footer h1{
+    background-color: #8FBC8F;
+    margin: 0px;
+    text-align:center;
+}
+
+.flash-cards-item{
+
+  border:3px solid #333;
+}
+
+.flash-cards-item-1{
+  width:400px;
+  background-color: #A9A9A9;
+  height:300px;
+  margin-top:25px;
+  margin-bottom:25px;
+  margin-right:0px;
+}
+
+.flash-cards-item-2{
+  width:150px;
+  background-color: #A9A9A9;
+  height:300px;
+  margin-top:25px;
+  margin-bottom:25px;
+  margin-right:0px;
+}
+.card{
+  width:300px;
+  height:200px;
+  background-color:white;
+  margin:45px;
+
+}
+
+.flash-cards ul{
+  list-style-type: none;
+}
+
+.flash-cards button{
+  background-color:#DCDCDC;
+  width:100px;
+  height:20px;
+  margin-left:0px;
+  border:1px solid #333;
 }
